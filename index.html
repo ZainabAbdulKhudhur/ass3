@@ -1,0 +1,59 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>UOBstudent</title>
+        <link rel="stylesheet" href="https://unpkg.com/pico.css">
+    
+    </head>
+    <body>
+        <main class="contaner">
+        <!--add table name-->
+        <h1>University of Bahrain Students Enrollment by Nationality</h1>
+        <style>
+            /*Css styling for table name*/
+h1{
+    text-align:left ;
+    font-family:sans-serif ;
+    font-weight:bolder;
+    color: #ca3176e2;
+}
+        </style>
+        <style>
+        /*Css styling for table*/
+table{
+    border-collapse: collapse;
+    background-color: #e9c4d8;
+    width: 1500px;
+}</style>
+        <table class="content-table">
+        <!--create table-->
+            <thead>
+                <tr>
+                <th>Year</th>
+                <th>Semster</th>
+                <th>ThePrograms</th>
+                <th>Nationality</th>
+                <th>Collages</th>
+                <th>Number of students</th>
+                </tr>
+                </thead>
+                <tbody id="table-body"></tbody>
+        <style>
+            .content-table thead tr{ background-color: #a95589e2;
+
+            }
+        </style>
+                <style>
+                    /*Css styling for table */
+        th{
+            text-align:left ;
+            font-family:sans-serif ;
+            font-weight:bolder;
+            color: #fefefee2;
+        }
+                </style>
+                </table></main>
+                <script src="api1.js"></script>
+                </body>
+</html>
